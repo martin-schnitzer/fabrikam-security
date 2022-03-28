@@ -22,8 +22,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Use Node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v2
-            npm install node-project #Install project 
+      uses: npm install node-project #Install project 
             tsc #Compile to JavaScript
             npm run start node-project #Start the project test
       with:
