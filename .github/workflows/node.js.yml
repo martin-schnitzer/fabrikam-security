@@ -32,6 +32,3 @@ jobs:
     - run: npm ci
     - run: npm run build --if-present
     - run: npm test
-    - run: npm install #Install project
-    - run: tsc #Compile to JavaScript
-    - run: npm run start #Start the project test
